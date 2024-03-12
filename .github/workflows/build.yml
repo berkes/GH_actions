@@ -8,28 +8,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
       - name: Install Yamllint
         run: pip install yamllint
       - name: Lint Recipes
         run: "yamllint *.yml"
 
-   build:
+  build:
     runs-on: ubuntu-latest
     needs: lint
     steps:
       - uses: actions/checkout@v2
       - name: Build HTML
-        run: ./bin/yaml_to_html recipes.yml recipes_template.html > recipes.html 
+        run: "./bin/yaml_to_html recipes.yml recipes_template.html > recipes.html"
       - name: Archive production artifact
         uses: actions/upload-artifact@v4
         with:
           name: recipes
           path: recipes.html
 
-   deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: [lint, build]
     steps:
-      name: "Deploy to production"
-      run: "echo DEPLOYING!!"
+      - name: "Deploy to production"
+        run: "echo DEPLOYING!!"
