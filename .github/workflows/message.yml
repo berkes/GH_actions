@@ -7,6 +7,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
+    - name: Get Last Recipe Name
+      id: lastRecipe
+      uses: mikefarah/yq@master
+      with:
+        cmd: yq '.recipes[-1].name' recipes.yml
+
     - name: Send WhatsApp Message
       env:
         TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
@@ -17,5 +24,5 @@ jobs:
         curl -X POST "https://api.twilio.com/2010-04-01/Accounts/$TWILIO_ACCOUNT_SID/Messages.json" \
         --data-urlencode "From=$TWILIO_WHATSAPP_FROM" \
         --data-urlencode "To=$TWILIO_WHATSAPP_TO" \
-        --data-urlencode "Body=Hello, this is a message from GitHub Actions!" \
+        --data-urlencode "Body=Last Recipe: ${{ steps.lastRecipe.outputs.result}}" \
         -u $TWILIO_ACCOUNT_SID:$TWILIO_AUTH_TOKEN
