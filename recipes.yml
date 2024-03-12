@@ -59,3 +59,22 @@ recipes:
       - "Return tofu to the pan. Add oyster sauce and sesame oil. Stir well to
         combine."
       - "Serve hot over rice."
+  - name: "Chickpea Salad Sandwich"
+    prep-time: "15 minutes"
+    difficulty: "Easy"
+    ingredients:
+      - "1 can (400g) chickpeas, drained and rinsed"
+      - "1/4 cup mayonnaise or vegan mayonnaise"
+      - "1 tablespoon Dijon mustard"
+      - "1/4 cup red onion, finely chopped"
+      - "1/4 cup celery, finely chopped"
+      - "2 tablespoons dill pickles, finely chopped"
+      - "Salt and pepper to taste"
+      - "4 slices of whole grain bread"
+      - "Lettuce leaves"
+      - "Tomato slices"
+    instructions:
+      - "In a bowl, mash the chickpeas with a fork until chunky."
+      - "Add mayonnaise, Dijon mustard, red onion, celery, and dill pickles to the mashed chickpeas. Mix until well combined. Season with salt and pepper."
+      - "Spread the chickpea mixture onto 2 slices of bread. Add lettuce and tomato slices."
+      - "Top with the remaining slices of bread. Cut sandwiches in half and serve."
