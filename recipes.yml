@@ -1,8 +1,56 @@
 recipes:
-  - name: ""
-    prep-time: ""
-    difficulty: ""
+  - name: "Tomato Basil Pasta"
+    prep-time: "15 minutes"
+    difficulty: "Easy"
     ingredients:
-      - 
+      - "200g spaghetti or any pasta of choice"
+      - "2 tablespoons olive oil"
+      - "3 garlic cloves, minced"
+      - "400g canned diced tomatoes"
+      - "Salt and pepper to taste"
+      - "Handful of fresh basil, chopped"
+      - "Grated Parmesan cheese (optional)"
     instructions:
-      -
+      - "Cook pasta according to package instructions. Drain and set aside."
+      - "Heat olive oil in a pan over medium heat. Add garlic and sauté until fragrant."
+      - "Add diced tomatoes, salt, and pepper. Simmer for 10 minutes."
+      - "Toss the cooked pasta with the tomato sauce. Mix in fresh basil."
+      - "Serve hot with grated Parmesan cheese on top, if desired."
+
+  - name: "Vegetarian Tacos"
+    prep-time: "20 minutes"
+    difficulty: "Easy"
+    ingredients:
+      - "4 corn tortillas"
+      - "1 can black beans, drained and rinsed"
+      - "1 avocado, sliced"
+      - "1 cup shredded lettuce"
+      - "1/2 cup diced tomatoes"
+      - "1/4 cup shredded cheese (optional)"
+      - "Sour cream and hot sauce for garnish (optional)"
+    instructions:
+      - "Heat tortillas on a skillet for about 30 seconds on each side."
+      - "Warm black beans in a microwave or on the stove."
+      - "Assemble tacos by laying tortillas flat and topping them with black beans, avocado slices, lettuce, and diced tomatoes."
+      - "Top with shredded cheese, sour cream, and hot sauce if desired."
+
+  - name: "Stir-Fried Tofu and Broccoli"
+    prep-time: "25 minutes"
+    difficulty: "Medium"
+    ingredients:
+      - "400g firm tofu, pressed and cubed"
+      - "2 tablespoons soy sauce"
+      - "1 tablespoon olive oil"
+      - "1 broccoli head, cut into florets"
+      - "2 garlic cloves, minced"
+      - "1 tablespoon ginger, minced"
+      - "2 tablespoons oyster sauce (vegetarian)"
+      - "1 teaspoon sesame oil"
+      - "Rice for serving"
+    instructions:
+      - "Marinate tofu cubes in soy sauce for 10 minutes."
+      - "Heat olive oil in a pan over medium-high heat. Add tofu and fry until golden brown. Remove and set aside."
+      - "In the same pan, add garlic and ginger. Sauté for a minute."
+      - "Add broccoli florets and stir-fry until tender."
+      - "Return tofu to the pan. Add oyster sauce and sesame oil. Stir well to combine."
+      - "Serve hot over rice."
