@@ -1,3 +1,4 @@
+---
 recipes:
   - name: "Tomato Basil Pasta"
     prep-time: "15 minutes"
@@ -12,7 +13,8 @@ recipes:
       - "Grated Parmesan cheese (optional)"
     instructions:
       - "Cook pasta according to package instructions. Drain and set aside."
-      - "Heat olive oil in a pan over medium heat. Add garlic and sauté until fragrant."
+      - "Heat olive oil in a pan over medium heat. Add garlic and sauté until
+        fragrant."
       - "Add diced tomatoes, salt, and pepper. Simmer for 10 minutes."
       - "Toss the cooked pasta with the tomato sauce. Mix in fresh basil."
       - "Serve hot with grated Parmesan cheese on top, if desired."
@@ -31,7 +33,8 @@ recipes:
     instructions:
       - "Heat tortillas on a skillet for about 30 seconds on each side."
       - "Warm black beans in a microwave or on the stove."
-      - "Assemble tacos by laying tortillas flat and topping them with black beans, avocado slices, lettuce, and diced tomatoes."
+      - "Assemble tacos by laying tortillas flat and topping them with black
+        beans, avocado slices, lettuce, and diced tomatoes."
       - "Top with shredded cheese, sour cream, and hot sauce if desired."
 
   - name: "Stir-Fried Tofu and Broccoli"
@@ -49,8 +52,10 @@ recipes:
       - "Rice for serving"
     instructions:
       - "Marinate tofu cubes in soy sauce for 10 minutes."
-      - "Heat olive oil in a pan over medium-high heat. Add tofu and fry until golden brown. Remove and set aside."
+      - "Heat olive oil in a pan over medium-high heat. Add tofu and fry until
+        golden brown. Remove and set aside."
       - "In the same pan, add garlic and ginger. Sauté for a minute."
       - "Add broccoli florets and stir-fry until tender."
-      - "Return tofu to the pan. Add oyster sauce and sesame oil. Stir well to combine."
+      - "Return tofu to the pan. Add oyster sauce and sesame oil. Stir well to
+        combine."
       - "Serve hot over rice."
